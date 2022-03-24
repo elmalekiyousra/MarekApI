@@ -17,6 +17,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
+import {MatMenuModule} from '@angular/material/menu';
+import { StudioManageComponent } from './studio-manage/studio-manage.component';
+import { FooterComponent } from './footer/footer.component';
+import { AccountComponent } from './account/account.component';
+import { MatPaginatorModule } from  '@angular/material/paginator';
+import { ReservationService } from './services/Reservation/reservation.service';
+import { UserService } from './services/User/user.service';
+import { StudioService } from './services/Studio/studio.service';
 
 
 
@@ -27,7 +35,11 @@ import {MatInputModule} from '@angular/material/input';
     RegisterComponent,
     StudioComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    StudioManageComponent,
+    FooterComponent,
+    AccountComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -39,9 +51,15 @@ import {MatInputModule} from '@angular/material/input';
     RouterModule,
     MatButtonModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    MatMenuModule,
+    MatPaginatorModule
   ],
-  providers: [],
+  providers: [
+    ReservationService,
+    UserService,
+    StudioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

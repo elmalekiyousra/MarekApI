@@ -1,9 +1,10 @@
 section
 {
-    background-image: url("/assets/images/1.jpg");
+    background-image: url("/assets/images/2_ilyas.jpg");
     background-repeat: no-repeat;
     margin: 0;
     height: 100%;
+    width: 100%;
     padding-top: 12%;
     margin-left:auto;
     margin-right: auto;
@@ -13,11 +14,11 @@ section
 mat-form-field
 {
     padding-left: 3%;
-    width: 21%;
+    width: 25%;
 }
 
 form  {
-    margin-left: 31%;
+    margin-left: 33%;
 }
 
 button{
@@ -28,5 +29,5 @@ button{
 
 mat-label
 {
-    color:#2980B9;
+    color:white;
 }

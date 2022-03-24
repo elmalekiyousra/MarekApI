@@ -1,1 +1,42 @@
-<p>register works!</p>
+<mat-card>
+    <mat-card-content>
+
+      <form >
+        <mat-icon color="primary">account_circle</mat-icon>
+   
+        <mat-form-field>
+            <input matInput placeholder="First Name"  name="firstname" required>
+            <mat-error>
+              Please provide a valid email address
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Last Name"  name="lastname" required>
+            <mat-error>
+              Please provide a valid email address
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="User Name"  name="username" required>
+            <mat-error>
+              Please provide a valid email address
+            </mat-error>
+          </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Email"  name="email" required>
+            <mat-error>
+              Please provide a valid email address
+            </mat-error>
+          </mat-form-field>
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password"  name="password" required>
+          <mat-error>
+            Please provide a valid password
+          </mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary" >Sign In</button>
+      </form>
+    </mat-card-content>
+  
+</mat-card>
+
