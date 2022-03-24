@@ -25,6 +25,7 @@ import { MatPaginatorModule } from  '@angular/material/paginator';
 import { ReservationService } from './services/Reservation/reservation.service';
 import { UserService } from './services/User/user.service';
 import { StudioService } from './services/Studio/studio.service';
+import { ReservationComponent } from './reservation/reservation.component';
 
 
 
@@ -39,6 +40,7 @@ import { StudioService } from './services/Studio/studio.service';
     StudioManageComponent,
     FooterComponent,
     AccountComponent,
+    ReservationComponent,
     
   ],
   imports: [
