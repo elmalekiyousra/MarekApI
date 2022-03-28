@@ -1,12 +1,58 @@
-<app-navbaruser></app-navbaruser>
+<app-navbar></app-navbar>
+<section>
+  <br><br><br>
+<!-- Cards with media area -->
+<mat-card class="example-card">
+  <mat-card-title-group>
+    <mat-card-title>MY ACCOUNT INFORMATION</mat-card-title>
+    <mat-card-subtitle>UserName</mat-card-subtitle>
+    <mat-divider></mat-divider>
+    <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+  </mat-card-title-group>
+  <mat-card-content>
+    <form class="example-form">
 
-  <p>MY ACCOUNT INFORMATION</p>
-  <mat-divider></mat-divider>
-  <mat-card>First Name :</mat-card>       <mat-form-field appearance="fill"> <mat-label>First Name</mat-label> <input matInput> </mat-form-field>
-  <mat-card>Last Name :</mat-card>        <mat-form-field appearance="fill"> <mat-label>Last Name</mat-label> <input matInput> </mat-form-field>
-  <mat-card>Account Name :</mat-card>     <mat-form-field appearance="fill"> <mat-label>Account Name</mat-label> <input matInput> </mat-form-field>
-  <mat-card>Email :</mat-card>            <mat-form-field appearance="fill"> <mat-label>Email</mat-label> <input matInput> </mat-form-field>
-  <mat-card>Password :</mat-card>         <mat-form-field appearance="fill"> <mat-label>Password</mat-label> <input matInput> </mat-form-field>
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>First name</mat-label>
+          <input matInput>
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Last Name</mat-label>
+          <input matInput>
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>User Name</mat-label>
+          <input matInput>
+        </mat-form-field></td>
+      </tr></table>
+    
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Ex. San Francisco">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Ex. California">
+        </mat-form-field></td>
+    
+      </tr></table>
+    </form>
+  </mat-card-content>
+  <button >Cancel</button>
+  <button>Update</button>
+</mat-card>
+
+</section>
+
+
+
+
+
+
+
+
 
 
 <app-footer></app-footer>
