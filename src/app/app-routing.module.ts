@@ -8,7 +8,12 @@ import { HomeComponent } from './home/home.component';
 import { StudioComponent } from './studio/studio.component';
 import { StudioManageComponent } from './studio-manage/studio-manage.component';
 import { AccountComponent } from './account/account.component';
-
+import { FooterComponent } from './footer/footer.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { LegalComponent } from './legal/legal.component';
+import { ContactComponent } from './contact/contact.component';
+import { UserinfoComponent } from './userinfo/userinfo.component';
+import { NavbaruserComponent } from './navbaruser/navbaruser.component'
 
 const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
@@ -18,6 +23,12 @@ const routes: Routes = [
   { path: 'studio', component: StudioComponent },
   { path: 'studioManage', component: StudioManageComponent },
   { path: 'account', component: AccountComponent },
+  { path: 'footer', component: FooterComponent },
+  { path: 'aboutus', component: AboutusComponent },
+  { path: 'legal', component: LegalComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'userinfo', component: UserinfoComponent },
+  { path: 'navbaruser', component: NavbaruserComponent },
 
   
 ];

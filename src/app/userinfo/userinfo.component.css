@@ -1,0 +1,10 @@
+.smia {
+  background-image: url("/assets/images/userinfo.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}

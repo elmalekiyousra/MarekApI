@@ -22,10 +22,14 @@ import { StudioManageComponent } from './studio-manage/studio-manage.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccountComponent } from './account/account.component';
 import { MatPaginatorModule } from  '@angular/material/paginator';
-import { ReservationService } from './services/Reservation/reservation.service';
-import { UserService } from './services/User/user.service';
-import { StudioService } from './services/Studio/studio.service';
-import { ReservationComponent } from './reservation/reservation.component';
+import {MatListModule} from '@angular/material/list';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { LegalComponent } from './legal/legal.component';
+import { ContactComponent } from './contact/contact.component';
+import { UserinfoComponent } from './userinfo/userinfo.component';
+import { NavbaruserComponent } from './navbaruser/navbaruser.component';
+import { MatTable, MatTableModule } from '@angular/material/table';
+
 
 
 
@@ -40,8 +44,11 @@ import { ReservationComponent } from './reservation/reservation.component';
     StudioManageComponent,
     FooterComponent,
     AccountComponent,
-    ReservationComponent,
-    
+    AboutusComponent,
+    LegalComponent,
+    ContactComponent,
+    UserinfoComponent,
+    NavbaruserComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,13 +62,11 @@ import { ReservationComponent } from './reservation/reservation.component';
     MatDialogModule,
     MatInputModule,
     MatMenuModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatListModule,
+    MatTableModule
   ],
-  providers: [
-    ReservationService,
-    UserService,
-    StudioService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
