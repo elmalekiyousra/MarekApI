@@ -14,6 +14,7 @@ import { LegalComponent } from './legal/legal.component';
 import { ContactComponent } from './contact/contact.component';
 import { UserinfoComponent } from './userinfo/userinfo.component';
 import { NavbaruserComponent } from './navbaruser/navbaruser.component'
+import { AddStudioComponent } from './studio/add-studio/add-studio.component';
 
 const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'userinfo', component: UserinfoComponent },
   { path: 'navbaruser', component: NavbaruserComponent },
+  { path: 'add-studio', component: AddStudioComponent },
 
   
 ];

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 
+import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -29,8 +30,8 @@ import { ContactComponent } from './contact/contact.component';
 import { UserinfoComponent } from './userinfo/userinfo.component';
 import { NavbaruserComponent } from './navbaruser/navbaruser.component';
 import { MatTable, MatTableModule } from '@angular/material/table';
-
-
+import { AddStudioComponent } from './studio/add-studio/add-studio.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { MatTable, MatTableModule } from '@angular/material/table';
     ContactComponent,
     UserinfoComponent,
     NavbaruserComponent,
+    AddStudioComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,7 +66,10 @@ import { MatTable, MatTableModule } from '@angular/material/table';
     MatMenuModule,
     MatPaginatorModule,
     MatListModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
